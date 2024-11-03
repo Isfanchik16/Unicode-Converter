@@ -13,5 +13,3 @@ def encode(name):
         decimal+=[hex(ord(x))[2::]]
     hexa=" ".join(decimal)
     return f"Encoded y-name is ({hexa}) in ASCII!"
-print(encode("Husniyor"))
-
