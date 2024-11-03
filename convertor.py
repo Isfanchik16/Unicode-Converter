@@ -1,10 +1,5 @@
 import unicodedata
-<<<<<<< Updated upstream:convertor.py
-
 def Unicode_Con(char):
-=======
-def Unicde_Con(char):
->>>>>>> Stashed changes:calculator.py
     unicode_code = f"U+{ord(char):04X}"
     character_name = unicodedata.name(char)
     return (f"The Unicode code point of '{char}' is {unicode_code}\nThe character name of '{char}' is '{character_name}'")
