@@ -8,6 +8,7 @@ with open("token.json") as file:
 
 def start_message(update,context):
     update.message.reply_text(f"Hello {update.effective_user.first_name}! To convert unicode type the command.")
+    update.message.reply_text(f"Hello {update.effective_user.first_name}! To convert unicode choose the command.")
     commands = [BotCommand(command="unicode_to_char",description="Convert unicode to charecter"),
                 BotCommand(command="char_to_unicode",description="Convert charecter to unicode"),
                 BotCommand(command="encode_text",description="Encode the name or text"),
